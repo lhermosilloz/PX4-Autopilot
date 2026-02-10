@@ -1,3 +1,5 @@
+# Test
+
 px4_add_module(
 	MODULE drivers__pitch_servo
 	MAIN pitch_servo

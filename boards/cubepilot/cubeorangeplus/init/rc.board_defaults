@@ -16,3 +16,6 @@ set IOFW "/etc/extras/cubepilot_io-v2_default.bin"
 
 # Enable VOXL ESC driver on GPS1 (/dev/ttyS2)
 voxl_esc start
+
+# Start pitch servo driver
+pitch_servo start

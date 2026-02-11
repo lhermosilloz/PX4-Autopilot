@@ -1,0 +1,5 @@
+menuconfig DRIVERS_PITCH_SERVO
+    bool "pitch_servo"
+    default y
+    ---help---
+        Enable support for pitch servo gimbal stabilizer

@@ -1,4 +1,4 @@
-# Test
+# 2D LiDAR gimbal servo stablizer
 
 px4_add_module(
 	MODULE drivers__pitch_servo
@@ -8,4 +8,6 @@ px4_add_module(
 		pitch_servo.cpp
 	DEPENDS
 		px4_work_queue
+		uORB
+		mathlib
 )
